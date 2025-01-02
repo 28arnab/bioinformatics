@@ -1,6 +1,6 @@
 string = "OLHyrgeTzIm3GBjNEPz1T4vsNCV40o5IQSCw00EmY5TVWZpit3wUPScxQyFlY86ImCpskiEh05KFNavJlW7OiPo7kp3frqNHUkOnychodactylusFzitlTN7fallaxJWF1jzltZKRXRi31Sp26xm76mRTKsDgx5RlL3vX4CfNKjsTDZJB4P67FcKgclrHkwoPL0z84K."
-word1 = string[98:111 + 1] # +1 so the last character of the given string also gets included
-word2 = string[120:125 + 1]
+word1 = string[98 : 111 + 1]
+word2 = string[120 : 125 + 1]
 result = word1 + " " + word2
 print(result)
 
