@@ -1,3 +1,9 @@
+""" 
+ID: INI4
+Given: Two positive integers a and b (a<b<10000).
+Return: The sum of all odd integers from a through b, inclusively.
+"""
+
 def sum_of_odds(a, b):
     if a % 2 == 0:
         a += 1
